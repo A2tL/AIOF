@@ -1,86 +1,67 @@
-<div align="center">
-
 # AllinOneFinance
 
-**Deine Finanzen. Deine Regeln. Offline.**
+**Deine Finanzen. Deine Daten. Kein Kompromiss.**
 
-[![Version](https://img.shields.io/badge/Version-1.5.0-gold?style=flat-square)](https://github.com/A2tL/AIOF/releases)
-[![Platform](https://img.shields.io/badge/Platform-Android-green?style=flat-square)](https://github.com/A2tL/AIOF/releases)
-[![Offline](https://img.shields.io/badge/100%25-Offline-red?style=flat-square)](https://github.com/A2tL/AIOF)
-[![Open Source](https://img.shields.io/badge/Open-Source-blue?style=flat-square)](https://github.com/A2tL/AIOF)
+Persönliche Finanzverwaltungs-App für Android – 100% lokal, offline und verschlüsselt.
 
-[📲 Download APK](https://github.com/A2tL/AIOF/releases/latest) · [🐛 Bug melden](https://github.com/A2tL/AIOF/issues)
-
-</div>
+[![Version](https://img.shields.io/badge/Version-2.0.1-gold)]()
+[![Plattform](https://img.shields.io/badge/Plattform-Android-green)]()
+[![Lizenz](https://img.shields.io/badge/Lizenz-Privat-red)]()
 
 ---
 
-## 📌 Was ist AllinOneFinance?
-
-Eine kostenlose Android-App zur vollständigen Finanzverwaltung —
-entwickelt für Auszubildende, Arbeitnehmer und Selbstständige.
-
-Keine Registrierung. Keine Cloud. Keine Werbung.
-Alles bleibt auf deinem Gerät.
-
----
-
-## ⚡ Features
+## Was kann die App?
 
 | Bereich | Funktion |
-|---|---|
-| **Dashboard** | Gesamtvermögen, Monatsstatus & freies Geld auf einen Blick |
-| **Konten** | Mehrere Konten verwalten |
-| **Finanzen** | Einnahmen & Fixkosten erfassen und auswerten |
-| **Investments** | Portfolio tracken |
-| **Schulden** | Schulden dokumentieren & Rückzahlungen planen |
-| **Sparziele** | Ziele setzen und Fortschritt verfolgen |
-| **Steuern** | Steuerrelevante Einträge dokumentieren |
-| **Escrow** | Reserven & Treuhandbeträge verwalten |
-| **Jahresbilanz** | Vollständige Jahresübersicht |
-| **Export** | Detail-PDF & Zusammenfassungs-PDF exportieren |
+|---------|---------|
+| Dashboard | Gesamtvermögen, Monatsübersicht, Schulden-Saldo |
+| Kasse | Alltags-Ausgaben & Einnahmen mit Kategorien |
+| Finanzen | Fixeinnahmen & Fixkosten (monatlich/jährlich/einmalig) |
+| Konten | Geldtöpfe mit Verlaufsdiagramm und Monatsabschluss |
+| Schulden | Wer schuldet wem – mit Verzugstage-Tracker |
+| Steuern | Werbungskosten automatisch aus der Kasse |
+| Investments | Aktien, ETFs, Krypto – mit Verkaufs-System |
+| Sparziele | Ziele mit Fortschrittsbalken und Konto-Einzahlung |
+| Jahresbilanz | 12-Monats-Vergleich mit Jahresnavigation |
+| Escrow | Verwahrtes Geld mit Pool-Funktion |
+| Hub | Einstellungen, Export, Sicherheit |
 
 ---
 
-## 🔒 Sicherheit
+## Sicherheit
 
-- 6-stelliger PIN zum Schutz der App
-- TOTP-Unterstützung via Google Authenticator
-- AES-256 Verschlüsselung aller gespeicherten Daten
-- 100% lokal — keine Daten verlassen dein Gerät
-
----
-
-## 📲 Installation
-
-1. Gehe zu [**Releases**](https://github.com/A2tL/AIOF/releases/latest)
-2. Lade die aktuelle `.apk` Datei herunter
-3. Öffne die Datei auf deinem Android-Gerät
-4. Installation aus unbekannten Quellen erlauben *(einmalig)*
-5. App starten & PIN einrichten
-
-> Mindestanforderung: Android 6.0+
+🔐 **6-stelliger PIN** mit Sperrlogik (SHA-256 Hash)
+👆 **Biometrie** – Fingerabdruck/Gesicht (Android)
+🔑 **2-Faktor-Authentifizierung** – TOTP, Google Authenticator kompatibel
+🛡️ **AES-256 Verschlüsselung** – alle Daten, Android Keystore
 
 ---
 
-## 🛠️ Technologie
+## Installation
 
-- **Framework:** Flutter (Dart)
-- **Datenbank:** Hive — lokal & verschlüsselt
-- **Sicherheit:** flutter_secure_storage, AES-256
-- **Charts:** fl_chart
-- **Export:** PDF & Printing
+1. [Neueste APK herunterladen](../../releases/latest)
+2. Auf dem Handy: Einstellungen → Apps → Sonderrechte → „Unbekannte Quellen" aktivieren
+3. APK antippen → Installieren
 
----
-
-## 👥 Erstellt von
-
-**A2tL & CA**
+**Kein Google-Konto nötig. Keine Registrierung. Keine Cloud.**
 
 ---
 
-<div align="center">
+## Warum keine Sparkassen-App?
 
-Kostenlos · Open Source · Keine Cloud · Kein Tracking
+Die Sparkasse weiß alles über dich. Jede Transaktion, jede Ausgabe – analysiert und gespeichert.
+AllinOneFinance weiß nur was **du** einträgst. Alles bleibt auf deinem Gerät.
 
-</div>
+---
+
+## Benutzerhandbuch
+
+📖 [Vollständiges Handbuch herunterladen](../../releases/latest) *(im Release als PDF)*
+
+---
+
+## Erstellt von
+
+**A2TL & CA** · [github.com/A2tL/AIOF](https://github.com/A2tL/AIOF)
+
+*Gebaut ohne Programmierstudium. Mit System. Mit Ergebnis.*
